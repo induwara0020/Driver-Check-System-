@@ -37,7 +37,7 @@
         </div>
         <div class="row justify-content-between">
           <div class="col">
-            <a href="<?php echo base_url ?>">Go to Portal</a>
+            <!--<a href="<?php echo base_url ?>">Go to Portal</a>
           </div>
           <!-- /.col -->
           <div class="col text-right">

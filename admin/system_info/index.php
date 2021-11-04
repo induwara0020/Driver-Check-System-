@@ -1,4 +1,4 @@
-<?php if($_settings->chk_flashdata('success')): ?>
+<!--<?php if($_settings->chk_flashdata('success')): ?>
 <script>
 	alert_toast("<?php echo $_settings->flashdata('success') ?>",'success')
 </script>
@@ -25,7 +25,7 @@
 			<!-- <div class="card-tools">
 				<a class="btn btn-block btn-sm btn-default btn-flat border-primary new_department" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New</a>
 			</div> -->
-		</div>
+		<!--</div>
 		<div class="card-body">
 			<form action="" id="system-frm">
 				<div id="msg" class="form-group"></div>

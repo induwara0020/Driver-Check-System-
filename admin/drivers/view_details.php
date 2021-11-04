@@ -65,9 +65,9 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                             </div>
                             <div class="row justify-content-between  w-max-100">
                                 <div class="col-6 d-flex w-max-100">
-                                    <label class="float-left w-auto whitespace-nowrap">Civil Status: </label>
+                                    <!--<label class="float-left w-auto whitespace-nowrap">Civil Status: </label>
                                     <p class="col-md-auto border-bottom px-2 border-dark w-100"><b><?php echo $civil_status ?></b></p>
-                                </div>
+                                </div> -->
                                 <div class="col-6 d-flex w-max-100">
                                     <label class="float-left w-auto whitespace-nowrap">Nationality: </label>
                                     <p class="col-md-auto border-bottom px-2 border-dark w-100"><b><?php echo $nationality ?></b></p>

@@ -63,13 +63,13 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 				</div>
 				<div class="col-6">
 					<div class="form-group">
-						<label for="civil_status" class="control-label">Civil Status</label>
+						<!--<label for="civil_status" class="control-label">Civil Status</label>
 						<select name="civil_status" id="civil_status" class="custom-select select2">
 							<option <?php echo (isset($civil_status) && $civil_status == 'Single') ? 'selected' : '' ?>>Single</option>
 							<option <?php echo (isset($civil_status) && $civil_status == 'Married') ? 'selected' : '' ?>>Married</option>
 							<option <?php echo (isset($civil_status) && $civil_status == 'Divorced') ? 'selected' : '' ?>>Divorced</option>
 							<option <?php echo (isset($civil_status) && $civil_status == 'Windowed') ? 'selected' : '' ?>>Windowed</option>
-						</select>
+						</select>-->
 					</div>
 					<div class="form-group">
 						<label for="nationality" class="control-label">Nationality</label>

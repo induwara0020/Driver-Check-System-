@@ -34,8 +34,8 @@
 				</colgroup>
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>Avatar</th>
+						<th>No#</th>
+						<th>Photo</th>
 						<th>Name</th>
 						<th>Username</th>
 						<th>Type</th>
