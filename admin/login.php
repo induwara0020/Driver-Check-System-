@@ -75,7 +75,7 @@
   width: 50%;
   border: 3px;
   padding-left: 130px ; 
-  color: #fff">© Group 10</p>
+  color: #fff">Group 10 ©</p>
 
 <p style="position: absolute;
   bottom: -4px;
