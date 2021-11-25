@@ -13,6 +13,10 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
         }
     }
 }
+// $con = mysqli_connect("localhost","root","" , "traffic_offense_db");
+// $email = $_POST['email'];
+// $sql = "INSERT INTO `drivers_list` (`email`) VALUES ('$email')";
+// $rs = mysqli_query($con, $sql);
 ?>
 
 <style>
@@ -45,7 +49,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 						<input type="text" class="form-control form" required name="firstname" value="<?php echo isset($firstname) ? $firstname : '' ?>">
 					</div>
 					<div class="form-group">
-						<label for="middlename" class="control-label">Middle Name</label>
+						<label for="middlename" class="control-label">Middle Name </label>
 						<input type="text" class="form-control form" name="middlename" value="<?php echo isset($middlename) ? $middlename : '' ?>">
 					</div>
 					<div class="form-group">
@@ -79,6 +83,11 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 						<label for="contact" class="control-label">Contact Number</label>
 						<input type="text" maxlength="13" class="form-control form" required name="contact" value="<?php echo isset($contact) ? $contact : '' ?>">
 					</div>
+					<!--div class="form-group">
+						<label for="email" class="control-label">Email</label>
+						<input type="email" maxlength="50" class="form-control form" required name="email" id="email" value="<?php $email = $_POST['email']; echo isset($email) ? $email : '' ?>">
+					</div> -->
+					
 					<!--<div class="form-group">
 						<label for="license_type" class="control-label">License Type</label>
 						<select name="license_type" id="license_type" class="custom-select select2">

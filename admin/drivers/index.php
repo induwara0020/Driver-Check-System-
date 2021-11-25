@@ -26,7 +26,7 @@
 						<th>#</th>
 						<th>License ID</th>
 						<th>Name</th>
-						<th>License Type</th>
+						<!--<th>License Type</th>-->
 						<th>Action</th>
 					</tr>
 				</thead>
@@ -42,8 +42,8 @@
 							<td class="text-center"><?php echo $i++; ?></td>
 							<td><?php echo $row['license_id_no'] ?></td>
 							<td><span class="mr-2"><a href="javascript:void(0)" class="view_details badge badge-dark text-light" data-id="<?php echo $row['id'] ?>"> <i class="fa fa-eye"></i></a></span> <?php echo $row['name'] ?></td>
-							<td><?php echo $row['license_type'] ?></td>
-							<td align="center">
+							<!--<td><?php echo $row['license_type'] ?></td>-->
+							<td align="float end">
 								 <button type="button" class="btn btn-flat btn-default btn-sm dropdown-toggle dropdown-icon" data-toggle="dropdown">
 				                  		Action
 				                    <span class="sr-only">Toggle Dropdown</span>
